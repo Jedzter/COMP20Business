@@ -146,7 +146,8 @@ footer {
     background: rgb(255, 255, 255);
     padding: 20px 40px;
     outline: none;
-    color: #f7faff;
+    color: #000000;
+
 }
 
 .contact-form {
