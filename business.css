@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+#intro {
+	color: green;
+	background-color: beige;
+	text-align: center;
+	border:4px #11400F solid;
+	padding-bottom: 20px;
+   
+}
+
+#playbutton {
+	margin-bottom: 200px;
+	background-color: green;
+    border:2px #11400F solid;
+    color: white;
+	border-radius: 2em;
+	margin: 4px;
+	height: 80px;
+	width: 200px;
+	font-size: 25px;
+}
+
+
+nav {
+	position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: 4vh;
+    background-color: #53bd7d;
+    z-index: 999;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(245, 240, 240);
+}
+
+#sidelinks a {
+	clear: right;
+	padding-left: 40px;
+	font-size: 18px;
+	
+}
+
+div {
+	display: block;
+}
+
+label {
+	margin: 0 40px 0 0;
+	font-size: 100%;
+	line-height: 70px;
+	display: none;
+	float: right;
+}
+
+#toggle {
+	display: none;
+}
+
+h4 {
+	padding-right: 500px;
+}
+
+footer {
+	background-color:#53bd7d;
+	padding: 50px 0;
+}
+
+#details {
+	max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+#line {
+
+	margin: 0px 0 20px 0;
+    width: 212px;
+    height: 2px;
+    background: rgb(0, 0, 0)
+}
+
+#formformat {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+}
+
+#text {
+	flex: 1;
+    padding: 15px 40px;
+    font-size: 16px;
+	background: beige;
+	font-weight: 900;
+	border: green;
+    border-radius: 30px;
+    min-width: 150px;
+}
+
+#submitbutton {
+
+
+   cursor: pointer;
+    padding: 15px 40px;
+    font-size: 16px;
+    color: #439958;
+    background:beige;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+	
+}
+
+#seperate {
+	margin: 0px 0px 20px 0px;
+    width: 100%;
+    height: 8px;
+    background: #439958;
+}
+
+#line2 {
+	margin: 5px auto;
+    width: 200px;
+    height: 2px;
+    background: #439958;
+}
+
+.contact-text {
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    border: 0;
+    background: rgb(255, 255, 255);
+    padding: 20px 40px;
+    outline: none;
+    color: #f7faff;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0px 10px;
+    overflow: hidden;
+}
+
+.button2 {
+
+    border: 0;
+    background: #439958;
+    color: rgb(226, 226, 226);
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
